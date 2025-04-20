@@ -1,0 +1,5 @@
+services:
+  myapp:
+    build: .
+    volumes:
+      - ./app:/app
