@@ -2,4 +2,5 @@ services:
   myapp:
     build: .
     volumes:
+      - ./samples/:/samples/
       - ./app:/app

@@ -1,12 +1,11 @@
 import time
-from time import localtime, strftime 
-time.sleep(120)
-from pydub import AudioSegment 
+from time import localtime, strftime
+from pydub import AudioSegment
 
-sound = AudioSegment.from_file("shit.mp3", format="mp3") 
-reversed_sound = sound.reverse() 
-reversed_sound.export("output.mp3", format="mp3")
+sound = AudioSegment.from_file("samples/shit.mp3", format="mp3")
+reversed_sound = sound.reverse()
+nice_try = reversed_sound + sound
+nice_try.export("app/apoj.mp3", format="mp3")
 
-with open("result", "w") as f:
-    f.write(strftime("%H-%M-%S: executed", localtime()) + "\n")
+print(strftime("%H-%M-%S: shit done\n", localtime()))
 
