@@ -6,4 +6,5 @@ services:
       - ./app:/app
       - ./intro/:/intro/
       - ./outro/:/outro/
-      - ./delimeter/:/delimeter/
+      - ./delimiter/:/delimiter/
+      - ./result/:/result/

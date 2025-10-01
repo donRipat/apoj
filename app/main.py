@@ -38,6 +38,6 @@ for sample in samples:
     final_apoj += reversed_sound + sound
 
 final_apoj = intro + final_apoj + outro
-final_apoj.export("/app/apoj.mp3", format="mp3")
+final_apoj.export("/result/apoj.mp3", format="mp3")
 
 print(strftime("\n%H-%M-%S: shit done", localtime()))

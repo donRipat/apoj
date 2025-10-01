@@ -3,7 +3,7 @@ COPY ./requirements.txt /requirements.txt
 COPY ./samples/ /samples/
 COPY ./intro/ /intro/
 COPY ./outro/ /outro/
-COPY ./delimeter/ /delimeter/
+COPY ./delimiter/ /delimiter/
 COPY ./app/ /app/
 RUN pip install -r requirements.txt 
 RUN apt-get update
