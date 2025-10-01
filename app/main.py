@@ -20,8 +20,8 @@ intro = AudioSegment.from_file(f"/intro/{intro_name}", format="mp3")
 outro_name = find_any_mp3(os.listdir("/outro"))
 outro = AudioSegment.from_file(f"/outro/{outro_name}", format="mp3")
 
-delimeter_name = find_any_mp3(os.listdir("/delimeter"))
-delimeter = AudioSegment.from_file(f"/delimeter/{delimeter_name}", format="mp3")
+delimiter_name = find_any_mp3(os.listdir("/delimeter"))
+delimiter = AudioSegment.from_file(f"/delimeter/{delimiter_name}", format="mp3")
 
 samples = os.listdir("/samples")
 
@@ -34,7 +34,7 @@ for sample in samples:
     sound = AudioSegment.from_file(f"/samples/{sample}", format="mp3")
     reversed_sound = sound.reverse()
     if len(final_apoj) != 0:
-        final_apoj += delimeter
+        final_apoj += delimiter
     final_apoj += reversed_sound + sound
 
 final_apoj = intro + final_apoj + outro
