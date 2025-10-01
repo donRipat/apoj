@@ -4,3 +4,6 @@ services:
     volumes:
       - ./samples/:/samples/
       - ./app:/app
+      - ./intro/:/intro/
+      - ./outro/:/outro/
+      - ./delimeter/:/delimeter/
