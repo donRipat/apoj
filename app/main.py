@@ -20,8 +20,8 @@ intro = AudioSegment.from_file(f"/intro/{intro_name}", format="mp3")
 outro_name = find_any_mp3(os.listdir("/outro"))
 outro = AudioSegment.from_file(f"/outro/{outro_name}", format="mp3")
 
-delimiter_name = find_any_mp3(os.listdir("/delimeter"))
-delimiter = AudioSegment.from_file(f"/delimeter/{delimiter_name}", format="mp3")
+delimiter_name = find_any_mp3(os.listdir("/delimiter"))
+delimiter = AudioSegment.from_file(f"/delimiter/{delimiter_name}", format="mp3")
 
 samples = os.listdir("/samples")
 
