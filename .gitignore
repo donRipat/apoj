@@ -174,6 +174,6 @@ cython_debug/
 .pypirc
 samples/
 app/apoj.mp3
-delimeter/
+delimiter/
 intro/
 outro/
