@@ -1,5 +1,5 @@
 # APOJ
-You provide only-**MP3** intro, samples, delimeter and outro, APOJ creates a soundtrack of "intro + reverse_sample1 + sample1 + delimiter + reverse_sample2 + sample2 + delimeter + ... + outro"
+You provide only-**MP3** intro, samples, delimiter and outro, APOJ creates a soundtrack of "intro + reverse_sample1 + sample1 + delimiter + reverse_sample2 + sample2 + delimiter + ... + outro"
 
 ## How to run locally
 ### Prerequisites
